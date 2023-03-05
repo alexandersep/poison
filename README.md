@@ -130,7 +130,7 @@ Any items you want displayed in your sidebar menu *must* satisfy two requirement
 
 There are two types of menu items:
 
-1. **Single Page** -- The *About* menu item (to the left) is a good example of this.  It displays a direct link to an individual page. For arbitrary single pages, the page content must be located at `content/<foo>/_index.md` and the front matter of `_index.md` must contain `layout: single`.
+1. **Single Page** -- The *About* menu item (to the left) is a good example of this.  It displays a direct link to an individual page.
 2. **List** -- The *Posts* menu item is a good example of this.  It displays a directory and dynamically lists the contents (i.e. pages) contained by date.  List items have two optional configurations: a subheading (like the *Recent* subheading that appears on the menu to the left), and a maximum number of items to display.
 
 The sidebar menu items are configured with a dictionary value in your *config.toml* file.  I've included an example below.  Additionally, there is a placeholder for this in the *config.toml* file shown in the next section.
@@ -153,9 +153,6 @@ menu = [
         # ... /content/about/about.md
         {Name = "About", URL = "/about/", HasChildren = false},
         
-        # ... /content/foo/_index.md
-        # {Name = "Foo", URL = "/foo/", HasChildren = false},
-
         # LIST
         # This example has a subheading of "Recent"
         # and will display up to 5 items.
@@ -237,18 +234,14 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     table_stripe_color = "#F9F9F9"  # default is #F9F9F9
 
     # Hex colors for your content in dark mode
-    text_color_dark = "#eee"                # default is #eee
-    content_bg_color_dark = "#121212"       # default is #121212
-    post_title_color_dark = "#DBE2E9"       # default is #DBE2E9
-    list_color_dark = "#9d9d9d"             # default is #9d9d9d
-    link_color_dark = "#268bd2"             # default is #268bd2
-    date_color_dark = "#9a9a9a"             # default is #9a9a9a
-    table_border_color_dark = "#515151"     # default is #515151
-    table_stripe_color_dark = "#202020"     # default is #202020
-    code_color = "#bf616a"                  # default is #bf616a
-    code_background_color = "#E5E5E5"       # default is #E5E5E5
-    code_color_dark = "#ff7f7f"             # default is #ff7f7f
-    code_background_color_dark = "#393D47"  # default is #393D47
+    text_color_dark = "#eee"            # default is #eee
+    content_bg_color_dark = "#121212"   # default is #121212
+    post_title_color_dark = "#DBE2E9"   # default is #DBE2E9
+    list_color_dark = "#9d9d9d"         # default is #9d9d9d
+    link_color_dark = "#268bd2"         # default is #268bd2
+    date_color_dark = "#9a9a9a"         # default is #9a9a9a
+    table_border_color_dark = "#515151" # default is #515151
+    table_stripe_color_dark = "#202020" # default is #202020
 
 [taxonomies]
     series = 'series'

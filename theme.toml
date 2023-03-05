@@ -1,11 +1,11 @@
 name = "Poison"
 license = "GPL-3.0 License"
-licenselink = "https://github.com/lukeorth/poison/blob/master/LICENSE.md"
-description = "A pragmatic Hugo theme for bloggers.  Based on the classic \"Hyde\" design by mdo."
+licenselink = "https://github.com/alexandersep/poison/blob/master/LICENSE.md"
+description = "A pragmatic Hugo theme for bloggers. Based on the classic \"Hyde\" design by mdo. Written by Luke orth https://github.com/lukeorth/poison"
 min_version = "0.41.0"
 
 # The home page of the theme, where the source can be found.
-homepage = "https://github.com/lukeorth/poison"
+homepage = "https://github.com/alexandersep/poison"
 
 # If you have a running demo of the theme.
 demosite = "https://poison-theme.netlify.app"
@@ -14,8 +14,8 @@ tags = ["blog", "personal", "dark", "dark-mode", "light", "minimal"]
 features = ["blog", "katex", "table-of-contents", "tabs", "dark-mode", "series"]
 
 [author]
-    name = "Luke Orth"
-    homepage = "https://lukeorth.com"
+    name = "Alexander Sepelenco"
+    homepage = "https://sepelenco.com"
 
 # If Porting existing theme
 [original]
