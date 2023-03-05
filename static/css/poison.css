@@ -48,11 +48,33 @@ h1, h2, h3, h4, h5, strong {
     color: var(--code-color);
     background-color: var(--code-background-color) !important;
 }
+.btn-light-dark .moon {
+color: var(--moon-sun-color);
+}
+.btn-light-dark .sun {
+color: var(--moon-sun-color);
+}
+.btn-light-dark {
+    padding: 0;
+    margin: 1em;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--moon-sun-background-color);
+}
+/* ************************** */
 .layout-reverse .content {
     margin-left: 20em;
 }
 .sidebar {
     background-color: var(--sidebar-bg-color);
+}
+.lead {
+    text-align: center;
+    color: var(--sidebar-p-color);
 }
 .sidebar-about img {
     object-fit: cover;
